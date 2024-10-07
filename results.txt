@@ -1,0 +1,189 @@
+Assignment 5
+Angel Penaloza
+CWID: 884700303
+This is the output of the fork.c file. 
+It uses the append method, which means that each iteration is output. 
+Because of this, I will tweak it for better readabilty. 
+The tabbed block of text with stars around it will be the complete output. 
+
+==============================================================
+==============================================================
+==============================================================
+
+
+
+----------- pattern 1 -----------
+main process creating process 1
+----------- pattern 1 -----------
+main process creating process 1
+process 1 beginning, with PID: 3599
+main process creating process 2
+
+**************************************
+
+    ----------- pattern 1 -----------
+    main process creating process 1
+    process 1 beginning, with PID: 3599
+    main process creating process 2
+    process 2 beginning, with PID: 3600
+    main process creating process 3
+    process 3 beginning, with PID: 3601
+    main process creating process 4
+    process 4 beginning, with PID: 3602
+    --------------------------------
+
+**************************************
+
+----------- pattern 1 -----------
+main process creating process 1
+process 1 beginning, with PID: 3599
+main process creating process 2
+process 2 beginning, with PID: 3600
+main process creating process 3
+----------- pattern 1 -----------
+main process creating process 1
+process 1 beginning, with PID: 3599
+main process creating process 2
+process 2 beginning, with PID: 3600
+main process creating process 3
+process 3 beginning, with PID: 3601
+main process creating process 4
+----------- pattern 1 -----------
+main process creating process 1
+----------- pattern 1 -----------
+main process creating process 1
+process 1 beginning, with PID: 3640
+main process creating process 2
+----------- pattern 1 -----------
+main process creating process 1
+process 1 beginning, with PID: 3640
+main process creating process 2
+process 2 beginning, with PID: 3641
+main process creating process 3
+
+**************************************
+
+    ----------- pattern 1 -----------
+    main process creating process 1
+    process 1 beginning, with PID: 3640
+    main process creating process 2
+    process 2 beginning, with PID: 3641
+    main process creating process 3
+    process 3 beginning, with PID: 3642
+    main process creating process 4
+    process 4 beginning, with PID: 3643
+    --------------------------------
+
+**************************************
+
+----------- pattern 1 -----------
+main process creating process 1
+process 1 beginning, with PID: 3640
+main process creating process 2
+process 2 beginning, with PID: 3641
+main process creating process 3
+process 3 beginning, with PID: 3642
+main process creating process 4
+
+
+==============================================================
+==============================================================
+==============================================================
+
+
+
+----------- pattern 2 -----------
+process 1 created process 2
+process 2 (5172) creating process 3
+----------- pattern 2 -----------
+process 1 created process 2
+process 2 created process 3
+process 3 (5173) creating process 4
+----------- pattern 2 -----------
+process 1 created process 2
+process 2 created process 3
+process 3 created process 4
+process 4 (5174) creating process 5
+----------- pattern 2 -----------
+process 1 created process 2
+process 2 created process 3
+process 3 created process 4
+process 4 created process 5
+process 5 (5176) creating process 6
+----------- pattern 2 -----------
+process 1 created process 2
+process 2 created process 3
+process 3 created process 4
+process 4 created process 5
+process 5 created process 6
+process 6 (5177) creating process 7
+----------- pattern 2 -----------
+process 1 created process 2
+process 2 created process 3
+process 3 created process 4
+process 4 created process 5
+process 5 created process 6
+process 6 created process 7
+process 7 (5178) creating process 8
+----------- pattern 2 -----------
+process 1 created process 2
+process 2 created process 3
+process 3 created process 4
+process 4 created process 5
+process 5 created process 6
+process 6 created process 7
+process 7 created process 8
+process 8 (5179) creating process 9
+----------- pattern 2 -----------
+process 1 created process 2
+process 2 created process 3
+process 3 created process 4
+process 4 created process 5
+process 5 created process 6
+process 6 created process 7
+process 7 created process 8
+process 8 created process 9
+process 9 (5180) creating process 10
+----------- pattern 2 -----------
+process 1 created process 2
+process 2 created process 3
+process 3 created process 4
+process 4 created process 5
+process 5 created process 6
+process 6 created process 7
+process 7 created process 8
+process 8 created process 9
+process 9 created process 10
+process 10 (5181) creating process 11
+----------- pattern 2 -----------
+process 1 created process 2
+process 2 created process 3
+process 3 created process 4
+process 4 created process 5
+process 5 created process 6
+process 6 created process 7
+process 7 created process 8
+process 8 created process 9
+process 9 created process 10
+process 10 created process 11
+--------------------------------
+
+******************************************
+
+    ----------- pattern 2 -----------
+    process 1 created process 2
+    process 2 created process 3
+    process 3 created process 4
+    process 4 created process 5
+    process 5 created process 6
+    process 6 created process 7
+    process 7 created process 8
+    process 8 created process 9
+    process 9 created process 10
+    process 10 created process 11
+    --------------------------------
+
+*******************************************
+
+** i'm not actually sure why the PID isn't being output in this file. 
+** it outputs when i run it in the terminal, but not to the file. 
