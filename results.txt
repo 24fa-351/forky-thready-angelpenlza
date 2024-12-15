@@ -1,0 +1,100 @@
+angelpenlza@Angels-Air-34 forky-thready-angelpenlza % make one
+gcc -o fork fork.c
+./fork 7 1
+----- pattern 1 -----
+process 1 beginning
+main process creating process 1...
+main process (76009) created process 1 (76010)
+process 1 exiting
+process 2 beginning
+main process creating process 2...
+main process (76009) created process 2 (76011)
+process 2 exiting
+process 3 beginning
+main process creating process 3...
+main process (76009) created process 3 (76012)
+process 3 exiting
+process 4 beginning
+main process creating process 4...
+main process (76009) created process 4 (76013)
+process 4 exiting
+process 5 beginning
+main process creating process 5...
+main process (76009) created process 5 (76014)
+process 5 exiting
+process 6 beginning
+main process creating process 6...
+main process (76009) created process 6 (76015)
+process 6 exiting
+process 7 beginning
+main process creating process 7...
+main process (76009) created process 7 (76016)
+process 7 exiting
+rm fork
+
+===================================================================================
+
+angelpenlza@Angels-Air-34 forky-thready-angelpenlza % make two
+gcc -o fork fork.c
+./fork 7 2
+----- pattern 2 -----
+main process creating process 1
+process 1 beginning...
+process 1 creating process 2
+process 1 (75237) created process 2 (75238)
+process 2 beginning...
+process 2 creating process 3
+process 2 (75238) created process 3 (75239)
+process 3 beginning...
+process 3 creating process 4
+process 3 (75239) created process 4 (75240)
+process 4 beginning...
+process 4 creating process 5
+process 4 (75240) created process 5 (75241)
+process 5 beginning...
+process 5 creating process 6
+process 5 (75241) created process 6 (75242)
+process 6 beginning...
+process 6 creating process 7
+process 6 (75242) created process 7 (75243)
+process 6 exiting...
+process 5 exiting...
+process 4 exiting...
+process 3 exiting...
+process 2 exiting...
+process 1 exiting...
+rm fork
+
+===================================================================================
+
+angelpenlza@Angels-Air-34 forky-thready-angelpenlza % make three
+gcc -o fork fork.c
+./fork 8 3
+----- pattern 3 -----
+main process creating process 1 with 8 things
+process 1 beginning...
+process 1 creating process 2...
+process 1 (72122) started process 2 (72133)
+process 2 beginning...
+process 2 creating process 4...
+process 2 (72133) started process 4 (72136)
+process 4 beginning...
+process 4 creating process 8...
+process 4 (72136) started process 8 (72137)
+process 8 exiting
+process 4 exiting
+process 2 creating process 5...
+process 2 (72133) started process 5 (72139)
+process 5 exiting
+process 2 exiting
+process 1 creating process 3...
+process 1 (72122) started process 3 (72140)
+process 3 beginning...
+process 3 creating process 6...
+process 3 (72140) started process 6 (72145)
+process 6 exiting
+process 3 creating process 7...
+process 3 (72140) started process 7 (72146)
+process 7 exiting
+process 3 exiting
+rm fork
